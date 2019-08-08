@@ -32,67 +32,77 @@
             position: absolute;
         }
 
+        .introcontainer {
+            background-color: :#fec901;
+            height: 300px;
+            width: 600px;
+            top: 200px;
+            left: 90px;
+            position: absolute;
+
+        }
+
         .black {
             width: 350px;
-            height: 30px;
+            height: 40px;
             background-color: black;
-            left: 100px;
-            top: 200px;
-            position: absolute;
+            margin: 40px 10px;
         }
 
         .title {
             width: 550px;
-            height: 90px;
+            height: 110px;
             background-color: black;
-            left: 100px;
-            top: 250px;
-            position: absolute;
+            margin: 20px 10px;
+
         }
 
         .buttonshop {
             width: 200px;
             height: 50px;
             background-color: white;
-            left: 100px;
-            top: 400px;
-            position: absolute;
+            margin: 10px;
         }
 
         .quality {
             width: 100%;
-            height: 40%;
-            background-color: white;
+            height: 295px;
             position: relative;
+        }
+
+        .qualitycontainer {
+            height: 290px;
+            width: 90%;
+            margin: auto;
+            padding: 20px;
 
         }
 
         .qualitytitle {
-            height: 60px;
+            height: 50px;
             width: 800px;
-            top: 10px;
-            left: 100px;
             background-color: black;
-            position: absolute;
+            margin: 30px;
+
         }
 
         .qualitycontent {
-            height: 130px;
+            height: 100px;
             width: 1100px;
-            top: 100px;
-            left: 100px;
             background-color: black;
-            position: absolute;
+            margin: 30px;
+
         }
 
+
         .tag {
-            height: 150px;
+            height: 140px;
             width: 100%;
             background-color: #fac769;
             position: relative;
         }
 
-        .tagcon {
+        .tagcontainer {
             height: 50px;
             width: 800px;
             top: 0;
@@ -105,87 +115,50 @@
         }
 
         .shop {
-            height: 500px;
+            height: 400px;
             width: 100%;
             background-color: white;
             position: relative;
         }
 
+
+        .productcontainer {
+            height: 400px;
+            width: 90%;
+            margin: auto;
+            margin-top: 20px;
+            padding: 40px;
+        }
+
         .prodtitle {
-            height: 60px;
+            height: 40px;
             width: 550px;
-            left: 100px;
-            top: 60px;
+            margin: 30px;
             background-color: black;
-            position: absolute;
         }
 
         .product1 {
             height: 300px;
             width: 350px;
-            top: 150px;
-            left: 100px;
             background-color: black;
-            position: absolute;
-
+            margin: 20px 20px 20px 30px;
+            display: inline-block;
         }
 
         .product2 {
             height: 300px;
             width: 350px;
-            top: 150px;
-            left: 500px;
             background-color: black;
-            position: absolute;
-
-
+            margin: 20px 20px 20px 30px;
+            display: inline-block;
         }
 
         .product3 {
             height: 300px;
             width: 350px;
-            top: 150px;
-            left: 900px;
             background-color: black;
-            position: absolute;
-
-        }
-
-        .procon {
-            height: 30px;
-            width: 100px;
-            top: 30px;
-            left: 30px;
-            background-color: #fac769;
-            position: relative;
-        }
-
-        .procon1 {
-            height: 100px;
-            width: 350px;
-            ;
-            bottom: 0px;
-            left: 0px;
-            background-color: #fac769;
-            position: absolute;
-        }
-
-        .procon1con {
-            height: 30px;
-            width: 150px;
-            top: 15px;
-            left: 15px;
-            background-color: black;
-            position: absolute;
-        }
-
-        .procon1content {
-            height: 40px;
-            width: 250px;
-            bottom: 8px;
-            left: 15px;
-            background-color: white;
-            position: absolute;
+            margin: 20px 20px 20px 30px;
+            display: inline-block;
         }
 
         .gallery {
@@ -496,41 +469,29 @@
 <body>
     <div class="intro">
         <div class="button"></div>
-        <div class="black"></div>
-        <div class="title"></div>
-        <div class="buttonshop"></div>
+        <div class="introcontainer">
+            <div class="black"></div>
+            <div class="title"></div>
+            <div class="buttonshop"></div>
+        </div>
     </div>
     <div class="quality">
-        <div class="qualitytitle"></div>
-        <div class="qualitycontent"></div>
+        <div class="qualitycontainer">
+            <div class="qualitytitle"></div>
+            <div class="qualitycontent"></div>
+        </div>
     </div>
     <div class="tag">
-        <div class="tagcon"></div>
+        <div class="tagcontainer"></div>
     </div>
 
 
     <div class="shop">
-        <div class="prodtitle"></div>
-        <div class="product1">
-            <div class="procon"></div>
-            <div class="procon1">
-                <div class="procon1con"></div>
-                <div class="procon1content"></div>
-            </div>
-        </div>
-        <div class="product2">
-            <div class="procon"></div>
-            <div class="procon1">
-                <div class="procon1con"></div>
-                <div class="procon1content"></div>
-            </div>
-        </div>
-        <div class="product3">
-            <div class="procon"></div>
-            <div class="procon1">
-                <div class="procon1con"></div>
-                <div class="procon1content"></div>
-            </div>
+        <div class="productcontainer">
+            <div class="prodtitle"></div>
+            <div class="product1"></div>
+            <div class="product2"></div>
+            <div class="product3"></div>
         </div>
     </div>
 
