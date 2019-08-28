@@ -24,7 +24,6 @@
  }
 
  .introcontainer {
-     background-color: :#fec901;
      width: 600px;
      top: 200px;
      left: 90px;
@@ -104,6 +103,7 @@
  .shopcontainer {
      width: 85%;
      margin: auto;
+     overflow: auto;
  }
 
  .prodtitle {
@@ -114,33 +114,30 @@
  }
 
  .productcontainer {
-     width: 100%;
-     margin: auto;
+     width: 33%;
+     height: 350px;
+     padding: 10px;
+     box-sizing: border-box;
+     float: left;
+
+
 
  }
 
  .product1 {
-     height: 350px;
-     width: 30%;
+     height: 100%;
      background-color: #fac769;
-     margin: 20px 30px 0px 0px;
-     display: inline-block;
+
  }
 
  .product2 {
-     height: 350px;
-     width: 30%;
+     height: 100%;
      background-color: #fac769;
-     margin: 20px 30px 0px 0px;
-     display: inline-block;
  }
 
  .product3 {
-     height: 350px;
-     width: 30%;
+     height: 100%;
      background-color: #fac769;
-     margin: 10px 30px 0px 0px;
-     display: inline-block;
  }
 
  .gallery {
@@ -151,6 +148,7 @@
  .gallerycontainer {
      width: 85%;
      margin: auto;
+     overflow: auto;
  }
 
  .gallerytitle {
@@ -161,72 +159,51 @@
  }
 
  .photoscontainer {
-     width: 100%;
-     margin: auto;
+     height: 200px;
+     width: 25%;
+     padding: 10px;
+     box-sizing: border-box;
+     float: left;
  }
 
  .photos1 {
-     height: 200px;
-     width: 23%;
+     height: 100%;
      background-color: #ffd220;
-     margin: 20px 10px 0px 0px;
-     display: inline-block;
  }
 
  .photos2 {
-     height: 200px;
-     width: 23%;
+     height: 100%;
      background-color: #ffd220;
-     margin: 20px 10px 0px 0px;
-     display: inline-block;
  }
 
  .photos3 {
-     height: 200px;
-     width: 23%;
+     height: 100%;
      background-color: #ffd220;
-     margin: 20px 10px 0px 0px;
-     display: inline-block;
  }
 
  .photos4 {
-     height: 200px;
-     width: 23%;
+     height: 100%;
      background-color: #ffd220;
-     margin: 20px 10px 0px 0px;
-     display: inline-block;
  }
 
  .photos5 {
-     height: 200px;
-     width: 23%;
+     height: 100%;
      background-color: #ffd220;
-     margin: 10px 10px 0px 0px;
-     display: inline-block;
  }
 
  .photos6 {
-     height: 200px;
-     width: 23%;
+     height: 100%;
      background-color: #ffd220;
-     margin: 10px 10px 0px 0px;
-     display: inline-block;
  }
 
  .photos7 {
-     height: 200px;
-     width: 23%;
+     height: 100%;
      background-color: #ffd220;
-     margin: 10px 10px 0px 0px;
-     display: inline-block;
  }
 
  .photos8 {
-     height: 200px;
-     width: 23%;
+     height: 100%;
      background-color: #ffd220;
-     margin: 10px 10px 0px 0px;
-     display: inline-block;
  }
 
 
@@ -288,8 +265,10 @@
  }
 
  .services {
-     width: 100%;
+     width: 85%;
      background-color: white;
+     margin: auto;
+     overflow: auto;
 
  }
 
@@ -302,41 +281,32 @@
  }
 
  .servicescontainer {
-     width: 80%;
-     margin: auto;
+     height: 200px;
+     width: 25%;
+     padding: 10px;
+     float: left;
+     box-sizing: border-box;
 
  }
 
  .services1 {
-     height: 200px;
-     width: 23%;
+     height: 100%;
      background-color: black;
-     margin: 20px 10px 0px 0px;
-     display: inline-block;
  }
 
  .services2 {
-     height: 200px;
-     width: 23%;
+     height: 100%;
      background-color: black;
-     margin: 20px 10px 0px 0px;
-     display: inline-block;
  }
 
  .services3 {
-     height: 200px;
-     width: 23%;
+     height: 100%;
      background-color: black;
-     margin: 20px 10px 0px 0px;
-     display: inline-block;
  }
 
  .services4 {
-     height: 200px;
-     width: 23%;
+     height: 100%;
      background-color: black;
-     margin: 20px 10px 0px 0px;
-     display: inline-block;
  }
 
 
