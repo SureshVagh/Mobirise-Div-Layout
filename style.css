@@ -342,21 +342,19 @@
  .contact {
      width: 100%;
      background-color: white;
+     overflow: auto;
  }
 
  .contactcontainer {
      width: 80%;
      margin: auto;
      font-size: 0px;
-     overflow: auto;
-
-
  }
 
  .contactcontainer1 {
      width: 33%;
      margin: auto;
-     display: inline-block;
+     float: left;
  }
 
  .contactlink {
@@ -369,7 +367,7 @@
  .contactcontainer2 {
      width: 33%;
      margin: auto;
-     display: inline-block;
+     float: left;
  }
 
  .copyright {
@@ -388,11 +386,31 @@
 
  }
 
- .contactcontainer3 {
-     height: 33px;
-     width: 33px;
-     margin: 20px 0px 50px 40px ;
-     display: inline-block;
+.contactcontainer3{
+    width: 33%;
+    height: 170px;
+    margin: auto;
+    overflow: auto;
+    float: left;
+    position: relative;
+}
+
+.socialcontent{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    background-color: white;
+    top: 0;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+ .socialmedia {
+     height: 60px;
+     width: 60px;
+     padding: 10px;
+     float: left;
  }
 
  .facebook {
